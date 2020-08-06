@@ -2,7 +2,7 @@ require 'pry'
 
 
 def reverse_each_word(sentence)
-#binding.pry 
+#binding.pry
 puts sentence 
   sentence.split.collect {|word| word.reverse}.join(" ")
   #binding.pry
